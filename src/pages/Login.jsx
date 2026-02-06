@@ -61,7 +61,7 @@ export default function Login() {
         <div className="role-box">
           <div
   className="role active"
-  onClick={() => navigate("/main")}
+  onClick={() => navigate("/signin")}
 >
   User
   <span>Book your tickets</span>

@@ -5,6 +5,8 @@ import Concerts from "./pages/Concerts";
 import Comedy from "./pages/Comedy";
 import Sports from "./pages/Sports";
 import Theatre from "./pages/Theatre";
+import SignIn from "./pages/SignIn";
+import Booking from "./pages/Booking";
 
 export default function App() {
   return (
@@ -16,6 +18,10 @@ export default function App() {
           <Route path="/comedy" element={<Comedy />} />
           <Route path="/sports" element={<Sports />} />
           <Route path="/theatre" element={<Theatre />} />
+          <Route path="/booking" element={<Booking />} />
+          
+          
+<Route path="/signin" element={<SignIn />} />
       </Routes>
     </BrowserRouter>
   );

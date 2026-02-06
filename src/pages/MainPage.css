@@ -2,14 +2,14 @@
 .main-page {
   min-height: 100vh;
   padding: 40px;
-  background: linear-gradient(120deg, #fef9c3, #f0f2f3);
+  background: linear-gradient(120deg, #fef9c3, #a1f039);
   font-family: "Poppins", sans-serif;
 }
 .title {
   text-align: center;
   font-size: 40px;
   margin-bottom: 40px;
-  color: #e6e9f1;
+  color: #0846f3;
 }
 .event-grid {
 
@@ -41,5 +41,5 @@
   padding: 20px;
   text-align: center;
   font-size: 22px;
-  color: #020617;
+  color: #f1f2f5;
 }
